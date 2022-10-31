@@ -45,3 +45,5 @@ D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\refi
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\BilShoppen.pdb
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\BilShoppen.genruntimeconfig.cache
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\ref\BilShoppen.dll
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.g.cs
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.baml

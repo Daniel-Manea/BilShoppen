@@ -44,6 +44,9 @@ namespace BilShoppen
         private void Button_Click_Users_List(object sender, RoutedEventArgs e)
         {
 
+            UsersListWindow usersListWindow = new UsersListWindow();
+            usersListWindow.Show();
+
         }
 
         private void Button_Click_Cars_List(object sender, RoutedEventArgs e)
