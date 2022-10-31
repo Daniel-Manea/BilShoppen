@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("car-dealership-366710-firebase-adminsdk-66tky-817218f94a.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("db-config.json")]
 
 

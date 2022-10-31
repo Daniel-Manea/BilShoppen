@@ -14,7 +14,7 @@ namespace BilShoppen.Database
 
         public static void InitializeDB()
         {
-            string path = AppDomain.CurrentDomain.BaseDirectory + @"car-dealership-366710-firebase-adminsdk-66tky-817218f94a.json";
+            string path = AppDomain.CurrentDomain.BaseDirectory + @"db-config.json";
             Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
         }
 
