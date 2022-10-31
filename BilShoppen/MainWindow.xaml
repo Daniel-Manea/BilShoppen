@@ -1,0 +1,21 @@
+﻿<Window x:Class="BilShoppen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BilShoppen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="lightblue">
+        <Grid Background="DimGray" HorizontalAlignment="Center" Height="414" VerticalAlignment="Center" Width="780">
+            <Button Content="Ny" Margin="71,42,515,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Ny"/>
+            <Button Content="Åben" Margin="293,42,293,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Åben"/>
+            <Button Content="E-Mail" Margin="515,42,71,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Email"/>
+            <TextBox HorizontalAlignment="Center" Background="White" Margin="0,140,0,0" TextWrapping="Wrap" Text="Hey" VerticalAlignment="Top" Height="150" Width="638" Name="TextBox" TextChanged="TextBox_TextChanged"/>
+            <Button Content="Gem" Margin="168,320,418,32" FontSize="40px" Background="LightBlue" Click="Button_Click_Gem"/>
+            <Button Content="Afslut" Margin="418,320,168,32" FontSize="40px" Background="LightBlue" Click="Button_Click_Afslut"/>
+
+
+        </Grid>
+    </Grid>
+</Window>
