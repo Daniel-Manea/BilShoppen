@@ -1,4 +1,5 @@
 ﻿using BilShoppen.Database;
+using Google.Cloud.Firestore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,55 +25,28 @@ namespace BilShoppen
     {
         public MainWindow()
         {
-            DB.InitializeDB();
             InitializeComponent();
-
         }
 
-       public class User
-        {
-            private string firstname = "unknown";
-
-            private string lastname = "unknown";
-
-            private object Name = "unknown";
-
-
-            protected void SetName()
-            {
-               Name = new { FirstName = "Daniel", LastName = "Manea" };
-            }
-
-            public static object GetName()
-            {
-
-                return new { FirstName = "Daniel", LastName = "Manea" }; ;
-            }
-        }
-
-        private void Button_Click_Ny(object sender, RoutedEventArgs e)
-        {
-    
-            DB.AddUser(User.GetName());
-        }
-        private void Button_Click_Åben(object sender, RoutedEventArgs e)
+        private void Button_Click_New_User(object sender, RoutedEventArgs e)
         {
 
-        }
-        private void Button_Click_Email(object sender, RoutedEventArgs e)
-        {
+            NewUserWindow newUserWindow = new NewUserWindow();
+            newUserWindow.Show();
 
         }
-        private void Button_Click_Gem(object sender, RoutedEventArgs e)
-        {
 
-        }
-        private void Button_Click_Afslut(object sender, RoutedEventArgs e)
+        private void Button_Click_Add_Car(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Click_Users_List(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Cars_List(object sender, RoutedEventArgs e)
         {
 
         }

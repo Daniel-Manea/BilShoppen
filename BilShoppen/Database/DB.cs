@@ -20,18 +20,19 @@ namespace BilShoppen.Database
 
         private static readonly string project = "car-dealership-366710";
 
-        private static readonly FirestoreDb db = FirestoreDb.Create(project);
+        public static readonly FirestoreDb db = FirestoreDb.Create(project);
 
-        static public async void AddUser(object userInfo)
+        static public async void AddUser(object userInfo, string str)
         {
-            DocumentReference docRef = db.Collection("users").Document("test");
-            Dictionary<string, object> user = new()
+            DocumentReference docRef = db.Collection("users").Document(str);
+            Dictionary<string, object> userData = new()
             {
                 {
-                    "Name", userInfo
+                  "User_Information", userInfo
                 },
+
             };
-            await docRef.SetAsync(user);
+            await docRef.SetAsync(userData);
         }
     }
 }

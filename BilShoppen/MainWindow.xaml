@@ -8,13 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="lightblue">
         <Grid Background="DimGray" HorizontalAlignment="Center" Height="414" VerticalAlignment="Center" Width="780">
-            <Button Content="Ny" Margin="71,42,515,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Ny"/>
-            <Button Content="Åben" Margin="293,42,293,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Åben"/>
-            <Button Content="E-Mail" Margin="515,42,71,310" FontSize="40px" Background="LightBlue" Click="Button_Click_Email"/>
-            <TextBox HorizontalAlignment="Center" Background="White" Margin="0,140,0,0" TextWrapping="Wrap" Text="Hey" VerticalAlignment="Top" Height="150" Width="638" Name="TextBox" TextChanged="TextBox_TextChanged"/>
-            <Button Content="Gem" Margin="168,320,418,32" FontSize="40px" Background="LightBlue" Click="Button_Click_Gem"/>
-            <Button Content="Afslut" Margin="418,320,168,32" FontSize="40px" Background="LightBlue" Click="Button_Click_Afslut"/>
-
+            <Button Content="New User" Margin="71,112,515,240" FontSize="40px" Background="LightBlue" Click="Button_Click_New_User"/>
+            <Button Content="Users List" Margin="293,112,293,240" FontSize="40px" Background="LightBlue" Click="Button_Click_Users_List"/>
+            <Button Content="Add Car" Margin="71,244,515,108" FontSize="40px" Background="LightBlue" Click="Button_Click_Add_Car"/>
+            <Button Content="Cars List" Margin="293,244,293,108" FontSize="40px" Background="LightBlue" Click="Button_Click_Cars_List"/>
 
         </Grid>
     </Grid>

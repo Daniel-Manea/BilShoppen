@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="car-dealership-366710-firebase-adminsdk-66tky-817218f94a.json" />
+    <None Remove="db-config.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="car-dealership-366710-firebase-adminsdk-66tky-817218f94a.json">
+    <Content Include="db-config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

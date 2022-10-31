@@ -1,0 +1,20 @@
+﻿<Window x:Class="BilShoppen.NewUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BilShoppen"
+        mc:Ignorable="d"
+        Title="NewUserWindow" Height="450" Width="328">
+    <Grid>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="39,78,0,0" VerticalAlignment="Top" Height="31" Width="80"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="First_Name_Input"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" Margin="39,130,0,0" VerticalAlignment="Top" Height="31" Width="80"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="Last_Name_Input"/>
+        <Label Content="E-mail" HorizontalAlignment="Left" Margin="39,192,0,0" VerticalAlignment="Top" Height="31" Width="80"/>
+        <TextBox HorizontalAlignment="Left" Margin="160,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="Email_Input"/>
+        <Button Content="Save" HorizontalAlignment="Left" Height="43" Margin="10,292,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_Save_User"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="43" Margin="180,292,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_Cancel"/>
+
+    </Grid>
+</Window>
