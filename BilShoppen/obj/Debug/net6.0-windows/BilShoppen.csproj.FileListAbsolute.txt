@@ -1,5 +1,4 @@
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\BilShoppen.exe
-D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\db-config.json
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\BilShoppen.deps.json
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\BilShoppen.runtimeconfig.json
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\BilShoppen.dll
@@ -47,3 +46,4 @@ D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\BilS
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\ref\BilShoppen.dll
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.g.cs
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.baml
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\Database\db-config.json

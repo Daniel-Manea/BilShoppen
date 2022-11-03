@@ -22,20 +22,18 @@ namespace BilShoppen
     {
         public NewUserWindow()
         {
-            DB.InitializeDB();
             InitializeComponent();
         }
 
         private void Button_Click_Save_User(object sender, RoutedEventArgs e)
         {
-
-                User user = new User();
-                user.firstname = First_Name_Input.Text;
-                user.lastname = Last_Name_Input.Text;
-                user.email = Email_Input.Text;
-                DB.AddUser(user.GetName(), user.lastname);
-         
-
+            User user = new()
+            {
+                firstname = First_Name_Input.Text,
+                lastname = Last_Name_Input.Text,
+                email = Email_Input.Text
+            };
+            AddData.AddUser(user);
         }
 
         private void Button_Click_Cancel(object sender, RoutedEventArgs e)

@@ -23,15 +23,17 @@ namespace BilShoppen
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+            DB.Initialize();
         }
 
         private void Button_Click_New_User(object sender, RoutedEventArgs e)
         {
 
-            NewUserWindow newUserWindow = new NewUserWindow();
+            NewUserWindow newUserWindow = new();
             newUserWindow.Show();
 
         }
@@ -43,9 +45,9 @@ namespace BilShoppen
 
         private void Button_Click_Users_List(object sender, RoutedEventArgs e)
         {
-
             UsersListWindow usersListWindow = new UsersListWindow();
             usersListWindow.Show();
+            Dictionary<string, User> users = new Dictionary<string, User>();
 
         }
 

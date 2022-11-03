@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("db-config.json")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("database/db-config.json")]
 
 

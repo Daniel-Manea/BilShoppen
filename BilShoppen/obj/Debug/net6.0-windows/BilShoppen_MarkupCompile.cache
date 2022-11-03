@@ -1,7 +1,7 @@
 ﻿BilShoppen
 
 
-winexe
+exe
 C#
 .cs
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\
@@ -11,8 +11,8 @@ false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\App.xaml
 31284286406
-11024406068
-7-881124485
+1164176257
+9-1926495208
 215222084927
 MainWindow.xaml;NewUserWindow.xaml;UsersListWindow.xaml;
 

@@ -8,17 +8,8 @@ namespace BilShoppen
 {
     internal class User
     {
-            public string firstname = "unknown";
-
-            public string lastname = "unknown";
-
-            public string email = "unknown";
-
-            public object GetName()
-            {
-
-                return new { this.firstname, this.lastname, this.email };
-            }
- 
+      public string? firstname;
+      public string? lastname;
+      public string? email;
     }
 }
