@@ -24,10 +24,5 @@ namespace BilShoppen
         {
             InitializeComponent();
         }
-
-        private void MyList_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-          
-        }
     }
 }
