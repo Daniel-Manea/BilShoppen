@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -43,11 +44,20 @@ namespace BilShoppen
 
         }
 
-        private void Button_Click_Users_List(object sender, RoutedEventArgs e)
+        private async void Button_Click_Users_List(object sender, RoutedEventArgs e)
         {
+            GetData.GetDocuments("users");
             UsersListWindow usersListWindow = new UsersListWindow();
+
+            foreach (var user in GetData.userDictionary)
+            {
+                Console.WriteLine(user.Key.ToString());
+                usersListWindow.UsersListBox.Items.Add("Hello");
+                
+            }
             usersListWindow.Show();
-            Dictionary<string, User> users = new Dictionary<string, User>();
+
+
 
         }
 

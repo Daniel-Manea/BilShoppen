@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BilShoppen.Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,7 @@ namespace BilShoppen
 
         private void MyList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+          
         }
     }
 }

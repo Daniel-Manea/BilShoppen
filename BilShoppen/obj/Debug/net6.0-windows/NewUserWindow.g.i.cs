@@ -77,7 +77,7 @@ namespace BilShoppen {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BilShoppen;V1.0.0.0;component/newuserwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BilShoppen;component/newuserwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\NewUserWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
