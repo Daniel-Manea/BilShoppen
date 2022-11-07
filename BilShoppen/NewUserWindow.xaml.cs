@@ -34,6 +34,9 @@ namespace BilShoppen
                 email = Email_Input.Text
             };
             AddData.AddUser(user);
+
+            this.Close();
+
         }
 
         private void Button_Click_Cancel(object sender, RoutedEventArgs e)

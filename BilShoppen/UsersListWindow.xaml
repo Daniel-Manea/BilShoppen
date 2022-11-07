@@ -7,8 +7,10 @@
         mc:Ignorable="d"
         Title="UsersListWindow" Height="450" Width="800">
     <Grid>
-        
-        <TextBox HorizontalAlignment="Left" Margin="52,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="UsersListWindowFirstName"/>
+
+        <ListBox x:Name="MyList" ItemsSource="{Binding Users}" SelectionChanged="MyList_SelectionChanged">
+            
+        </ListBox>
 
     </Grid>
 </Window>

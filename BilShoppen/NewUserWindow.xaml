@@ -13,8 +13,8 @@
         <TextBox HorizontalAlignment="Left" Margin="160,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Name="Last_Name_Input"/>
         <Label Content="E-mail" HorizontalAlignment="Left" Margin="39,192,0,0" VerticalAlignment="Top" Height="31" Width="80"/>
         <TextBox HorizontalAlignment="Left" Margin="160,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" x:Name="Email_Input"/>
-        <Button Content="Save" HorizontalAlignment="Left" Height="43" Margin="10,292,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_Save_User"/>
-        <Button Content="Cancel" HorizontalAlignment="Left" Height="43" Margin="180,292,0,0" VerticalAlignment="Top" Width="138" Click="Button_Click_Cancel"/>
+        <Button Content="Save" HorizontalAlignment="Left" Height="43" Margin="42,266,0,0" VerticalAlignment="Top" Width="113" Click="Button_Click_Save_User"/>
+        <Button Content="Cancel" HorizontalAlignment="Left" Height="43" Margin="175,266,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_Cancel"/>
 
     </Grid>
 </Window>
