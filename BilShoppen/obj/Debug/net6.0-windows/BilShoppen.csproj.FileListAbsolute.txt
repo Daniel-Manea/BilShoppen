@@ -47,3 +47,11 @@ D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\ref\
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.g.cs
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UsersListWindow.baml
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\Database\db-config.json
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UserEditInfoWindow.g.cs
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\UserEditInfoWindow.baml
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\NewCarWindow.g.cs
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\NewCarWindow.baml
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarEditInfoWindow.g.cs
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarsListWindow.g.cs
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarEditInfoWindow.baml
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarsListWindow.baml

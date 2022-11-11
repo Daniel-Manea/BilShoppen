@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\App.xaml
-31284286406
+7222484412
 1164176257
-12-2093670510
+18-374445704
 215222084927
-MainWindow.xaml;NewUserWindow.xaml;UsersListWindow.xaml;
+CarEditInfoWindow.xaml;CarsListWindow.xaml;MainWindow.xaml;NewCarWindow.xaml;NewUserWindow.xaml;UserEditInfoWindow.xaml;UsersListWindow.xaml;
 
 False
 
