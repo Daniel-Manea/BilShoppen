@@ -25,6 +25,11 @@ namespace BilShoppen
             InitializeComponent();
         }
 
+        public static void DoWork()
+        {
+            MessageBox.Show("Hello world");
+        }
+
         private void Button_Click_Save_User(object sender, RoutedEventArgs e)
         {
             User user = new()

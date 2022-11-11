@@ -2,6 +2,7 @@
 using BilShoppen.Database;
 using BilShoppen.Users;
 using System.Collections.Generic;
+using System.Threading;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -24,6 +25,9 @@ namespace BilShoppen
         {
 
             NewUserWindow newUserWindow = new();
+            Thread newThread = new Thread(new ThreadStart(NewUserWindow.DoWork));
+            newThread.Start();
+            Thread.Sleep(1000);
             newUserWindow.Show();
         }
 
@@ -71,6 +75,7 @@ namespace BilShoppen
                     newStackPanel.Children.Add(label);
 
                     usersListWindow.UsersListBox.Items.Add(newStackPanel);
+
                 }
                 usersListWindow.Show();
                     
