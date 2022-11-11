@@ -55,3 +55,9 @@ D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarE
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarsListWindow.g.cs
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarEditInfoWindow.baml
 D:\School-Repos\FinalProject\BilShoppen\BilShoppen\obj\Debug\net6.0-windows\CarsListWindow.baml
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\Grpc.Core.dll
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+D:\School-Repos\FinalProject\BilShoppen\BilShoppen\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll

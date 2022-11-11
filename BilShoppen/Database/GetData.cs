@@ -25,6 +25,7 @@ namespace BilShoppen.Database
             return collectionQuerySnapshot;
         }
 
+
         public static async Task<Dictionary<string, object>?> GetDocument(string collectionName, string documentName)
         {
             DocumentReference docRef = DB.db.Collection(collectionName).Document(documentName);
@@ -42,8 +43,6 @@ namespace BilShoppen.Database
                 return null;
             }
         }
-
-
 
 
 

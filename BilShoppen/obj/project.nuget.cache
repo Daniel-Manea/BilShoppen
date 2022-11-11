@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1LsTY0zZfNCn2S22JRzeaRnJEaEfT/DhWeJBS4woZXKxnZqtUfiWZQV/GiNonKxO6zFWiInVTPJu09PcaVQ32Q==",
+  "dgSpecHash": "3eGkHa0FjrwQrqJx8J5fK1l/4eLjCCskqfkl82Etom2uZ1QO+AtchwACCqYy/e4ucEv7xZjSUDembmFgyKKWbg==",
   "success": true,
   "projectFilePath": "D:\\School-Repos\\FinalProject\\BilShoppen\\BilShoppen\\BilShoppen.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,8 @@
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\google.longrunning\\3.0.0\\google.longrunning.3.0.0.nupkg.sha512",
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\google.protobuf\\3.21.0\\google.protobuf.3.21.0.nupkg.sha512",
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.auth\\2.46.3\\grpc.auth.2.46.3.nupkg.sha512",
-    "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.core.api\\2.46.3\\grpc.core.api.2.46.3.nupkg.sha512",
+    "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.core\\2.46.5\\grpc.core.2.46.5.nupkg.sha512",
+    "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.core.api\\2.46.5\\grpc.core.api.2.46.5.nupkg.sha512",
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.net.client\\2.46.0\\grpc.net.client.2.46.0.nupkg.sha512",
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\grpc.net.common\\2.46.0\\grpc.net.common.2.46.0.nupkg.sha512",
     "C:\\Users\\Daniel.Manea.EMEA\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "BilShoppen/1.0.0": {
         "dependencies": {
-          "Google.Cloud.Firestore": "3.0.0"
+          "Google.Cloud.Firestore": "3.0.0",
+          "Grpc.Core": "2.46.5"
         },
         "runtime": {
           "BilShoppen.dll": {}
@@ -43,7 +44,7 @@
           "Google.Api.Gax": "4.0.0",
           "Google.Apis.Auth": "1.56.0",
           "Grpc.Auth": "2.46.3",
-          "Grpc.Core.Api": "2.46.3",
+          "Grpc.Core.Api": "2.46.5",
           "Grpc.Net.Client": "2.46.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
@@ -151,7 +152,7 @@
       "Grpc.Auth/2.46.3": {
         "dependencies": {
           "Google.Apis.Auth": "1.56.0",
-          "Grpc.Core.Api": "2.46.3"
+          "Grpc.Core.Api": "2.46.5"
         },
         "runtime": {
           "lib/netstandard2.0/Grpc.Auth.dll": {
@@ -160,14 +161,53 @@
           }
         }
       },
-      "Grpc.Core.Api/2.46.3": {
+      "Grpc.Core/2.46.5": {
+        "dependencies": {
+          "Grpc.Core.Api": "2.46.5",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Grpc.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.46.5.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/libgrpc_csharp_ext.arm64.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/2.46.5": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.1/Grpc.Core.Api.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.46.3.0"
+            "fileVersion": "2.46.5.0"
           }
         }
       },
@@ -185,7 +225,7 @@
       },
       "Grpc.Net.Common/2.46.0": {
         "dependencies": {
-          "Grpc.Core.Api": "2.46.3"
+          "Grpc.Core.Api": "2.46.5"
         },
         "runtime": {
           "lib/net6.0/Grpc.Net.Common.dll": {
@@ -336,12 +376,19 @@
       "path": "grpc.auth/2.46.3",
       "hashPath": "grpc.auth.2.46.3.nupkg.sha512"
     },
-    "Grpc.Core.Api/2.46.3": {
+    "Grpc.Core/2.46.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uy1oe5baVa4V+C8ZyMiA8xYdNIx5A3PiacQL0f1zWDjF2z64Cb1MMXXRTs3GX+jeKpoK/RtOZg8UnJSm2KC/pQ==",
-      "path": "grpc.core.api/2.46.3",
-      "hashPath": "grpc.core.api.2.46.3.nupkg.sha512"
+      "sha512": "sha512-bD35LTppXYmRvymX6rV+mqc2wZcZf8o0fYkEJ414cul1RiGRWTeVWOtDC94CaTGG2Ie/XoLTd347bnBB5vHaGQ==",
+      "path": "grpc.core/2.46.5",
+      "hashPath": "grpc.core.2.46.5.nupkg.sha512"
+    },
+    "Grpc.Core.Api/2.46.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y8ZWjt0axK3ApE3OrERivXiIg6aboIq7AXbWAmdZWtHXfj3PkZeihSOaHN+acGkRy5CeSMXgBCj/+kWjyPFiaw==",
+      "path": "grpc.core.api/2.46.5",
+      "hashPath": "grpc.core.api.2.46.5.nupkg.sha512"
     },
     "Grpc.Net.Client/2.46.0": {
       "type": "package",

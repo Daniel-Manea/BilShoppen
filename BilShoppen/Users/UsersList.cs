@@ -14,15 +14,15 @@ namespace BilShoppen.Users
         {
 
             QuerySnapshot documentsQuery = await GetData.GetDocuments("users");
-            Dictionary<string, User> userDictionary = new Dictionary<string, User>();
-            List<object> usersList = new List<object>();
+            Dictionary<string, User> userDictionary = new();
+            List<object> usersList = new();
 
 
             foreach (DocumentSnapshot documentSnapshot in documentsQuery.Documents)
             {
                 Dictionary<string, object> user = documentSnapshot.ToDictionary();
 
-                User user1 = new User();
+                User user1 = new();
 
                 foreach (KeyValuePair<string, object> info in user)
                 {

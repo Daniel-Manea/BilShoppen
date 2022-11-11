@@ -35,7 +35,6 @@ namespace BilShoppen
             };
             AddData.AddCar(car, Int32.Parse(button.Uid));
             this.Close();
-
         }
 
         private void Cancel_Button_Click(object sender, RoutedEventArgs e)
